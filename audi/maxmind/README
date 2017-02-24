@@ -1,0 +1,12 @@
+# Install MaxMind GeoIP2 Python API on every Spark worker node
+
+example:
+
+sudo yum install python-pip
+sudo pip install geoip2
+
+# Install MaxMind IP database file on every Spark work node
+
+example:
+sudo mkdir /usr/local/maxmind
+sudo cp ~/Desktop/spark101/audi/maxmind/GeoLite2-City.mmdb /usr/local/maxmind/
